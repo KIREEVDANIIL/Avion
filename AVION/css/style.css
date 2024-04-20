@@ -1,0 +1,112 @@
+@font-face{
+    font-family: Clash Display;
+    src: url(C:\Users\kab311-05\Desktop\AVION\fonts\ClashDisplay_Complete\Fonts\WEB\fonts\ClashDisplay-Light.woff2);
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: Clash Display;
+    src: url(C:\Users\kab311-05\Desktop\AVION\fonts\ClashDisplay_Complete\Fonts\WEB\fonts\ClashDisplay-Semibold.woff2);
+    font-weight: 600;
+}
+
+@font-face{
+    font-family: Clash Display;
+    src: url(C:\Users\kab311-05\Desktop\AVION\fonts\ClashDisplay_Complete\Fonts\WEB\fonts\ClashDisplay-Bold.woff2);
+    font-weight: 900;
+}
+
+@font-face{
+    font-family: Satoshi;
+    src: url(C:\Users\kab311-05\Desktop\AVION\fonts\ClashDisplay_Complete\Fonts\WEB\fonts\Satoshi-Regular.woff2);
+    font-weight: 900;
+}
+
+@font-face{
+    font-family: Satoshi;
+    src: url(C:\Users\kab311-05\Desktop\AVION\fonts\ClashDisplay_Complete\Fonts\WEB\fonts\Satoshi-Regular.woff2);
+    font-weight: 900;
+}
+
+@font-face{
+    font-family: Satoshi;
+    src: url(C:\Users\kab311-05\Desktop\AVION\fonts\ClashDisplay_Complete\Fonts\WEB\fonts\Satoshi-Regular.woff2);
+    font-weight: 900;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-white: #fff
+    --color-black: #000
+    --color-lite-gray: #F9F9F9
+    --color-dark-primary: #2a254b
+    --color-nav-links: #726E8D
+}
+
+p{
+    font-family: "Clash Display";
+    font-weight: 900;
+    color: red;
+}
+
+h1{
+    color: red;
+}
+header{
+    display: grid;
+    row-gap: 20px;
+    padding: 0 2vh;
+    padding-top: 20px;
+    border: 3cm;
+}
+
+header>div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   align-items: center;
+}
+
+header>div span{
+    justify-self: center;
+    font-family: "Clash Display";
+    font-size: 24px;
+}
+
+header>div div.icons{
+    justify-self: end;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1vw;
+}
+
+header>div svg{
+    height: 16px;
+    color: var(--color-dark-primary);
+}
+
+header nav{
+    justify-self: center;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    column-gap: 4vw;
+}
+
+header nav ul a{
+    text-decoration: none;
+    color: var(--color-nav-links);
+    font-family: Satoshi;
+    font-size: 16px;
+}
+
+header nav ul a:hover{
+    color: var(--color-black);
+    transition: al 0,7s;
+}
